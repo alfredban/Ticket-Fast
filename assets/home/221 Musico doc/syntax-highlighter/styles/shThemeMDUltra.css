@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+	<html>
+	<head>
+		<script type="text/javascript">
+			function onKeyDown() {
+				if (null != window.event) {
+					switch(window.event.keyCode) {
+						case 32:	/* space */
+						case 13:	/* enter */
+							showDetails();
+							break;						
+					}
+				}
+				return false;
+			}
+
+			function showDetails() {
+				
+			}
+			
+			var _baseMsgId = "1689006478289";
+			var _language = "ES";
+			var _utmSource = "540223850-807001";
+		</script>
+
+		<script type="text/javascript" src="http://ipm.corel.com/static/ipm/_js/msgs.js"></script>
+
+		<link rel="stylesheet" href="../skin/skin.css" />
+		<style type="text/css">
+			.bannerHoriz {
+				width:260;
+				height:75;
+				border-width: 0px;
+			}
+			.bannerVert {
+				width:90;
+				height:155;
+				border-width: 0px;
+			}
+		</style>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+		<META HTTP-EQUIV="MSThemeCompatible" CONTENT="yes">
+		<META HTTP-EQUIV="X-UA-Compatible" content="IE=EmulateIE10" />
+	</head>
+	<body id="snippet_body"  onload="NotifyParent()" OnKeyDown="onKeyDown()" OnClick="showDetails()" OnDragOver="return false">
+	
+		
+		
+		
+		<div style="display:none"> <a href=""></a></div>
+	
+		<table width="260" cellpadding="0" cellspacing="0" border="0">
+			<tr id="msgrw_1">
+				<td height="0" colspan="3"
+					><img src="../skin/SkinNewsSnippetHeaderImage.gif" height="0" width="260" 
+				/></td>
+			</tr>
+			
+	
+			<tr  id="msgrw_2">
+				
+				<td height="6" width="6" id="bktl"></td>
+				<td height="6" width="248" id="bkt"></td>
+				<td height="6" width="6" id="bktr"></td>
+				
+			</tr>
+			<tr id="msgrw_content">
+				<td height="143" width="6" id="bkl"></td>
+				<td width="248" height="143" id="snippet">
+					
+					<iframe id="msgiframe" style="border: 0; padding: 0; margin: 0" src="" height="400" width="400" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+<script type="text/javascript">
+	var css_lang = css_lang.toLowerCase();
+	var destVal = '/products/cdgs/cdgs/cuh/upsell/cdgssub/20230919-ug-to-23q4-launch-w1-to-2021-X4/';
+	var iframeURL = 'https://ipm.corel.com/index.html?lang=' + css_lang + '&dest=' + encodeURIComponent(addGoogleAnalyticsParamsToUrl(destVal,'CuH'));
+
+	//get dynamic size from ipm.corel.com
+	var msgframe = document.getElementById('msgiframe');
+	var eventMethod,messageEvent;
+	if (window.addEventListener) {
+	   eventMethod = "addEventListener";
+	   messageEvent = "message";
+	}
+	else {
+	   eventMethod = "attachEvent";
+	   messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+	}
+	var eventer = window[eventMethod];
+	eventer(messageEvent, function (e) {
+		if (e.data != null){
+			var str = e.data.split(",");
+			if(str.length == 2) {
+				//CUH container iframe size
+				var msgframeprn

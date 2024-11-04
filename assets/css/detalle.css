@@ -1,0 +1,47 @@
+
+body{
+ background-color: black;   
+ color:whitesmoke;
+ 
+}
+
+.contenedor{
+display: flex;
+
+}
+
+#foto {
+    margin-top: 200px;
+    margin-left: 500px;
+    width: 400px;                /* Ancho del contenedor */
+    background-color: whitesmoke;
+    height: 400px;               /* Alto del contenedor */
+    margin-bottom: 150px;
+    border-radius: 20px;
+    display: flex;               /* Usar flexbox para centrar el contenido */
+    justify-content: center;      /* Centrar horizontalmente */
+    align-items: center;          /* Centrar verticalmente */
+    overflow: hidden;             /* Oculta cualquier parte de la imagen que sobrepase el contenedor */
+}
+
+#foto img {
+    max-width: 90%;               /* La imagen ocupa hasta el 90% del contenedor */
+    max-height: 90%;              /* La imagen ocupa hasta el 90% del contenedor */
+    height: auto;                 /* Mantiene la proporción de la imagen */
+    width: auto;                  /* Mantiene la proporción de la imagen */
+}
+
+#descripcion{
+    margin-top: 200px;
+    margin-bottom: 150px;
+    background-color: whitesmoke;
+    float: right;
+    margin-right: 50px;
+    margin-left: 150px;
+    width: 320px;
+    border-radius: 20px;
+
+    padding: 30px;
+    font-size: 25px;
+    font-family: monospace;
+}

@@ -1,0 +1,11 @@
+Pasos:
+1.Colocar la carpeta ticket fast en la carpeta WWW de wamp server 
+(si se utiliza xammp utilizar su carpeta correspondiente)
+2.Correr el script en mysql
+3.
+Si se desea usar la pagina como admin utilice : 
+nombre: alfredban
+contraseña:1998
+
+si desea usarla como usuario, puede o agregarlo mediante mysql, o registrandose por la pagina mediante 
+el apartado de registrarse que se encuentra una vez se cliquea en iniciar sesion

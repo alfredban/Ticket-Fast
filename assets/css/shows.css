@@ -1,0 +1,34 @@
+
+div,h3{
+    color: whitesmoke;
+
+}
+
+th, td {
+    padding: 10px;
+    color: black;
+    text-align: center;
+    border: 1px solid #390d21;
+}
+
+th {
+    background-color:#9a072a;
+    color: black;
+}
+
+.img  {
+    width: 150px;
+    height: auto;
+    border-radius: 5px; /* Redondea los bordes de la imagen */
+    margin-left: 200px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
